@@ -7,18 +7,19 @@ This is a simple snake game, the aim is snake eats green food, when he eats it, 
 The red color is a poison and if snake eats it, a snake will die. 
 
 ## Class structure
-<img src="diagra.png"/>
+<img src="diagram.png"/>
 
 ## Rubric points are addressed
 * The submission must compile and run.
 <img src="run.png"/>
 
-* The submission must compile and run.
 * Loops, Functions, I/O
   * created FoodType, also there is switch in food.h
   * I/O score is saved by save.cpp in FILE.txt
-
-* Object Oriented Programming -   
+* Object Oriented Programming 
+* Memory Management
+* Concurrency
+  * yes please check src/main.cpp src/game.cpp src/controller.cpp src/renderer.cpp src/snake.cpp  src/food.cpp src/save.cpp
 
 ## Dependencies for Running Locally
 * cmake >= 3.7
